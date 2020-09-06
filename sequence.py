@@ -9,16 +9,16 @@
 # 7. Repeat for n-2 times. 
 
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
-num_for_refernce = 3
+num_0= 3
 num_1 = 2
 num_2 = 1
 num_3 = 0
 print(1,2, end=' ')
 for i in range(n-2):
     
-    print_gildi = b+c+d
-    a = print_gildi
-    b,c,d = a,b,c
+    print_gildi = num_1+num_2+num_3
+    num_0= print_gildi
+    num_1,num_2,num_3 = num_0,num_1,num_2
     
 
     print(print_gildi, end=' ')
